@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { User } from './User';
 import { FormsModule } from '@angular/forms';
 import { AuthenticationService } from '../../authentication/authentication.service';
@@ -12,12 +12,26 @@ import { AuthenticationService } from '../../authentication/authentication.servi
   templateUrl: './login-form.component.html',
   styleUrl: './login-form.component.scss'
 })
-export class LoginFormComponent {
+export class LoginFormComponent implements OnInit {
   user: User = new User()
 
   constructor(
     private _authServer: AuthenticationService
   ) {}
+
+  ngOnInit(): void {
+    if (localStorage.getItem("token") !== null) {
+      try {
+        const localJWT = localStorage.getItem("token")
+
+        if (localJWT != null) {
+          this._authServer.jwt = JSON.parse(localJWT)
+        }        
+      } catch(e) {
+        localStorage.removeItem("token")
+      }
+    }
+  }
 
   login() {
     this._authServer.login(this.user).subscribe(

@@ -15,6 +15,8 @@ export class AuthenticationService {
     private _http: HttpClient
   ) { 
     this.isAuthenticated = false
+
+   
   }
 
   get isAuthenticated(): Observable<boolean> {
@@ -25,13 +27,14 @@ export class AuthenticationService {
     this.$isAuthenticated.next(authenticated)
   }
 
-  login(user: User): Observable<any> {
+  login(user: User): Observable<any> {    
     return this._http.post<any>(`${environment.API_URL}/api/users/login`, user)
   }
 
   set jwt(value: any) {
     this._jwt = value
     this.isAuthenticated = this._jwt !== null    
+    localStorage.setItem("token", JSON.stringify(this.jwt))
   }
 
   get jwt(): any {

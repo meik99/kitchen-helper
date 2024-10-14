@@ -14,13 +14,12 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
-  $isAuthenticated: Observable<boolean>
+  $isAuthenticated: Observable<boolean> = of(false)
 
   constructor(
     private _authService: AuthenticationService,
     private _router: Router
-  ) {
-    this.$isAuthenticated = of(false)
+  ) {    
   }
 
   ngOnInit(): void {
