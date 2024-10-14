@@ -31,6 +31,8 @@ export class LoginFormComponent implements OnInit {
         localStorage.removeItem("token")
       }
     }
+
+    this.user.endpoint = this._authServer.endpoint
   }
 
   login() {

@@ -4,6 +4,7 @@ import { Observable, of } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Item } from './Item';
+import { AuthenticationService } from '../../authentication/authentication.service';
 
 @Component({
   selector: 'app-inventory-list',

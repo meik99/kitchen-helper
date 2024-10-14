@@ -9,14 +9,18 @@ import { environment } from '../../environments/environment';
 })
 export class AuthenticationService {
   private _jwt: any | null = null
+  private _endpoint: string = environment.API_URL
   private $isAuthenticated = new Subject<boolean>()
 
   constructor(
     private _http: HttpClient
   ) { 
     this.isAuthenticated = false
+    this.endpoint = environment.API_URL
 
-   
+    if (!this.endpoint || this.endpoint.length <= 0) {
+      this.endpoint = window.location.origin
+    }
   }
 
   get isAuthenticated(): Observable<boolean> {
@@ -27,8 +31,17 @@ export class AuthenticationService {
     this.$isAuthenticated.next(authenticated)
   }
 
-  login(user: User): Observable<any> {    
-    return this._http.post<any>(`${environment.API_URL}/api/users/login`, user)
+  get endpoint(): string {
+    return this._endpoint
+  }
+
+  set endpoint(value: string) {
+    this._endpoint = value
+  }
+
+  login(user: User): Observable<any> {
+    this.endpoint = user.endpoint
+    return this._http.post<any>(`${this.endpoint}/api/users/login`, user)
   }
 
   set jwt(value: any) {

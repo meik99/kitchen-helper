@@ -8,6 +8,12 @@
   <div class="col-12 col-md-6">
     <form class="mt-4">
       <div class="mb-3">
+        <label for="endpoint" class="form-label">Endpoint</label>
+        <input type="text" class="form-control" id="endpoint"
+          name="endpoint"
+          [(ngModel)]="user.endpoint">        
+      </div>
+      <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
         <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
           name="email"

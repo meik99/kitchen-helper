@@ -15,7 +15,7 @@ export class InventoryService {
   ) { }
 
   find(limit = 10000, page = 1): Observable<any> {
-    return this._http.get(`${environment.API_URL}/api/items?limit=${limit}&page=${page}`, {
+    return this._http.get(`${this._authService.endpoint}/api/items?limit=${limit}&page=${page}`, {
       headers: {
         "Authorization": `Bearer ${this._authService.jwt.token}`
       }
@@ -29,7 +29,7 @@ export class InventoryService {
     return this._increment(item, -1)
   }
   remove(item: any): Observable<any> {
-    return this._http.delete<any>(`${environment.API_URL}/api/items/${item.id}`, {
+    return this._http.delete<any>(`${this._authService.endpoint}/api/items/${item.id}`, {
       headers: {
         "Authorization": `Bearer ${this._authService.jwt.token}`
       }
@@ -37,7 +37,7 @@ export class InventoryService {
   }
 
   create(item: Item): Observable<any> {
-    return this._http.post<any>(`${environment.API_URL}/api/items`, item, {
+    return this._http.post<any>(`${this._authService.endpoint}/api/items`, item, {
       headers: {
         "Authorization": `Bearer ${this._authService.jwt.token}`
       }
