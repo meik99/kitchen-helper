@@ -1,12 +1,11 @@
-#[path = "../api/mod.rs"]
-
 use dioxus::prelude::*;
 use dioxus_logger::tracing::{info, Level, error};
 
+use crate::state;
 use crate::api;
 
 #[component]
-pub fn Login(mut use_token: Signal<api::login::Token>) -> Element {    
+pub fn Login(mut login_state: Signal<state::login::LoginState>) -> Element {    
     let mut email = use_signal(|| "".to_string());
     let mut password = use_signal(|| "".to_string());    
 
@@ -18,8 +17,7 @@ pub fn Login(mut use_token: Signal<api::login::Token>) -> Element {
 
             match result {
                 Ok(token) => {
-                    info!("{}", token.token);
-                    *use_token.write() = token;
+                    *login_state.write() = state::login::LoginState::from_token(token);
                 },
                 Err(err) => error!("{}", err),                
             }

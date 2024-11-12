@@ -59,7 +59,6 @@ pub fn newTokenWithExpiration(exp: i64) -> api::login::Token {
 
 
 pub async fn get_token(email: &str, password: &str) -> Result<Token, reqwest::Error> {
-    // info!("{}\n", env::KNIVE_API_URL)
     let client = reqwest::Client::new();
     let url = format!("{}{}", env::KNIVE_API_URL, LOGIN_PATH);
     let mut credentials = HashMap::new();
@@ -68,6 +67,21 @@ pub async fn get_token(email: &str, password: &str) -> Result<Token, reqwest::Er
     credentials.insert("password", password);
 
     let result =  client.post(url).json(&credentials).send().await?.json().await;
+
+    return result;
+}
+
+pub async fn refresh_token(token: &str) -> Result<Token, reqwest::Error> {
+    let client = reqwest::Client::new();
+    let url = format!("{}{}", env::KNIVE_API_URL, LOGIN_PATH);
+
+    let result = client
+        .post(url)
+        .header("Authorization", format!("Bearer {:?}", token))
+        .send()
+        .await?
+        .json()
+        .await;
 
     return result;
 }
