@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/obj/Debug/net9.0/scopedcss/bundle/website.styles.css",
+      "PackagePath": "staticwebassets/website.styles.css"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_animated.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_animated.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_bordered-pulled.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_bordered-pulled.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_fixed-width.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_fixed-width.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_icons.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_icons.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_index.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_index.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_larger.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_larger.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_list.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_list.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_mixins.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_mixins.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_rotated-flipped.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_rotated-flipped.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_screen-reader.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_screen-reader.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_stacked.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_stacked.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/_variables.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/_variables.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fontawesome/fontawesome.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome/fontawesome.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-Black.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-Black.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-BlackItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-BlackItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-Bold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-Bold.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-Italic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-Italic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-Light.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-Light.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-LightItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-LightItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-Medium.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-Medium.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-MediumItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-MediumItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplay-Regular.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplay-Regular.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplayVF-Italic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplayVF-Italic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatDisplay/RedHatDisplayVF.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatDisplay/RedHatDisplayVF.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-Bold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-Bold.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-BoldItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-BoldItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-Italic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-Italic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-Light.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-Light.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-LightItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-LightItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-Medium.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-Medium.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-MediumItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-MediumItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMono-Regular.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMono-Regular.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMonoVF-Italic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMonoVF-Italic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatMono/RedHatMonoVF.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatMono/RedHatMonoVF.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-Bold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-Bold.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-BoldItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-BoldItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-Italic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-Italic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-Light.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-Light.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-LightItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-LightItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-Medium.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-Medium.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-MediumItalic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-MediumItalic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatText-Regular.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatText-Regular.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatTextVF-Italic.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatTextVF-Italic.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/RedHatText/RedHatTextVF.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/RedHatText/RedHatTextVF.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/fonts/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/icons/fontawesome.css",
+      "PackagePath": "staticwebassets/assets/icons/fontawesome.css"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/icons/iconUnicodes.json",
+      "PackagePath": "staticwebassets/assets/icons/iconUnicodes.json"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/FuseConnector_Icons_AzureServices.png",
+      "PackagePath": "staticwebassets/assets/images/FuseConnector_Icons_AzureServices.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/FuseConnector_Icons_REST.png",
+      "PackagePath": "staticwebassets/assets/images/FuseConnector_Icons_REST.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/PF-Backdrop.svg",
+      "PackagePath": "staticwebassets/assets/images/PF-Backdrop.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/PF-HorizontalLogo-Color.svg",
+      "PackagePath": "staticwebassets/assets/images/PF-HorizontalLogo-Color.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/PF-HorizontalLogo-Reverse.svg",
+      "PackagePath": "staticwebassets/assets/images/PF-HorizontalLogo-Reverse.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/PF-IconLogo-Reverse.svg",
+      "PackagePath": "staticwebassets/assets/images/PF-IconLogo-Reverse.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/PF-IconLogo-color.svg",
+      "PackagePath": "staticwebassets/assets/images/PF-IconLogo-color.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/PF-IconLogo.svg",
+      "PackagePath": "staticwebassets/assets/images/PF-IconLogo.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/activemq-core_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/activemq-core_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/camel-avro_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/camel-avro_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/camel-dropbox_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/camel-dropbox_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/camel-infinispan_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/camel-infinispan_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/camel-saxon_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/camel-saxon_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/camel-spark_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/camel-spark_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/camel-swagger-java_200x150.png",
+      "PackagePath": "staticwebassets/assets/images/camel-swagger-java_200x150.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/icon-github.hbs",
+      "PackagePath": "staticwebassets/assets/images/icon-github.hbs"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/icon-google.hbs",
+      "PackagePath": "staticwebassets/assets/images/icon-google.hbs"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/icon-red-hat.hbs",
+      "PackagePath": "staticwebassets/assets/images/icon-red-hat.hbs"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/img_avatar-light.svg",
+      "PackagePath": "staticwebassets/assets/images/img_avatar-light.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/img_chart-stack.png",
+      "PackagePath": "staticwebassets/assets/images/img_chart-stack.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/img_chart-threshold.png",
+      "PackagePath": "staticwebassets/assets/images/img_chart-threshold.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/img_line-chart-1.png",
+      "PackagePath": "staticwebassets/assets/images/img_line-chart-1.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/img_line-chart-2.png",
+      "PackagePath": "staticwebassets/assets/images/img_line-chart-2.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/img_pie-chart-with-legend.png",
+      "PackagePath": "staticwebassets/assets/images/img_pie-chart-with-legend.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/images/pf-background.svg",
+      "PackagePath": "staticwebassets/assets/images/pf-background.svg"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/pficon/pf-v6-pficon.woff2",
+      "PackagePath": "staticwebassets/assets/pficon/pf-v6-pficon.woff2"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/assets/pficon/pficon.scss",
+      "PackagePath": "staticwebassets/assets/pficon/pficon.scss"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/main.css",
+      "PackagePath": "staticwebassets/main.css"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/patternfly.min.css",
+      "PackagePath": "staticwebassets/patternfly.min.css"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/patternfly.min.css.map",
+      "PackagePath": "staticwebassets/patternfly.min.css.map"
+    },
+    {
+      "Id": "/home/localmichaelrynkiewicz/Projects/knive/website/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.website.props",
+      "PackagePath": "build\\website.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.website.props",
+      "PackagePath": "buildMultiTargeting\\website.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.website.props",
+      "PackagePath": "buildTransitive\\website.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
