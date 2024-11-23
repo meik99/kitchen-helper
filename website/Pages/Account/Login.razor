@@ -1,5 +1,6 @@
 @page "/account/login"
 @using website.Account
+@inject NavigationManager NavigationManager
 @inject TokenAuthenticationService TokenAuthenticationService
 @inject TokenAuthenticationStateProvider TokenAuthenticationStateProvider
 
@@ -49,7 +50,7 @@
 
                         <span class="pf-v6-c-form-control pf-m-required">
                             <input required type="password" id="login-demo-form-password"
-                                name="login-demo-form-password" @bind="authenticationRequest.Password"/>
+                                name="login-demo-form-password" @bind="authenticationRequest.Password" />
                         </span>
                     </div>
                     <div class="pf-v6-c-form__group">
@@ -161,7 +162,11 @@
     private async void HandleLogin()
     {
         var authResponse = await TokenAuthenticationService.Login(authenticationRequest);
-        
-        TokenAuthenticationStateProvider.StateFromResponse(authResponse);
+
+        if (authResponse != null)
+        {
+            TokenAuthenticationStateProvider.StateFromResponse(authResponse);
+            NavigationManager.Refresh(true);
+        }
     }
 }

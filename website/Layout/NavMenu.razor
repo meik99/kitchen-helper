@@ -1,29 +1,10 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">Knive</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
-
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="nav flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>        
-    </nav>
-</div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+﻿<ul class="pf-v6-c-nav__list" role="list">
+    <li class="pf-v6-c-nav__item">
+        <NavLink class="pf-v6-c-nav__link" href="/" Match="NavLinkMatch.All">            
+            <span class="pf-v6-c-nav__link-icon">
+                <i class="fas fa-fw fa-balance-scale" aria-hidden="true"></i>
+            </span>
+            <span class="pf-v6-c-nav__link-text">Inventory</span>
+        </NavLink>
+    </li>
+</ul>

@@ -4,22 +4,55 @@
 <div class="page">
     <AuthorizeView>
         <Authorized>
-            <div class="sidebar">
-                <NavMenu />
+            <div class="pf-v6-c-page">
+                <header class="pf-v6-c-masthead">
+                    <div class="pf-v6-c-masthead__main">
+                        <span class="pf-v6-c-masthead__toggle">
+                            <button class="pf-v6-c-button pf-m-plain" 
+                                type="button" 
+                                aria-label="Global navigation"
+                                @onclick="ToggleNavMenu">
+                                <span class="pf-v6-c-button__icon">
+                                    <i class="fas fa-bars" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </span>
+                        <div class="pf-v6-c-masthead__brand">
+                            <a class="pf-v6-c-masthead__logo" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="pf-v6-c-masthead__content">
+                    </div>
+                </header>
+                <div class="pf-v6-c-page__sidebar @NavMenuCssClass">
+                    <nav class="pf-v6-c-nav" aria-label="Global">
+                        <NavMenu />
+                    </nav>
+                </div>
+                <div class="pf-v6-c-page__main-container" tabindex="-1">
+                    <main class="pf-v6-c-page__main" tabindex="-1">
+                        @Body
+                    </main>
+                </div>
             </div>
-
-            <main>
-                <article class="content px-4">
-                    @Body
-                </article>
-            </main>
         </Authorized>
         <NotAuthorized>
             <main>
                 <article class="content px-4">
                     <Login></Login>
                 </article>
-            </main>            
+            </main>
         </NotAuthorized>
     </AuthorizeView>
 </div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "pf-m-collapsed" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
