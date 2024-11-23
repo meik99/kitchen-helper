@@ -166,6 +166,7 @@
         if (authResponse != null)
         {
             TokenAuthenticationStateProvider.StateFromResponse(authResponse);
+            NavigationManager.NavigateTo("/inventory");
             NavigationManager.Refresh(true);
         }
     }
